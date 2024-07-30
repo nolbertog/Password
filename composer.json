@@ -1,0 +1,17 @@
+{
+    "name": "password/php",
+    "description": "Gestor de password",
+    "autoload": {
+        "psr-4": {
+            "Password\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nolberto Gonzalez"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
