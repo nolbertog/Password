@@ -1,13 +1,15 @@
-/* registro.css */
 nav {
     background-color: #f2f2f2;
     padding: 10px;
+    text-align: right;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: flex-start;
 }
 
 nav ul li {
@@ -15,14 +17,33 @@ nav ul li {
     margin-right: 10px;
 }
 
+nav ul li#titulo {
+    margin-right: auto;
+}
+
+nav ul li#titulo h2 {
+    margin: 0;
+}
+
 nav ul li a {
     text-decoration: none;
-    color: #333;
-    padding: 5px;
+    color: black;
 }
 
 nav ul li a:hover {
     background-color: #ddd;
+    text-decoration: none;
+}
+
+#logout {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#logout:hover {
+    background-color: #0056b3;
 }
 
 h2 {

@@ -9,7 +9,12 @@ if (!isset($_SESSION['usuario'])) {
 
 $contenido = '';
 
-if (isset($_POST['boton'])) {
+if (isset($_POST['usuario'])) {
+    ob_start();
+    include '../static/user.html';
+    $contenido = ob_get_clean();
+}
+if (isset($_POST['configuracion'])) {
     ob_start();
     include '../static/user.html';
     $contenido = ob_get_clean();
