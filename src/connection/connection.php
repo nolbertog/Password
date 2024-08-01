@@ -20,13 +20,13 @@ function iniciarSesion($usuario, $contrasena) {
         } else {
             echo "<script type='text/javascript'>
                     alert('Usuario o contraseña incorrectos');
-                    window.location.href = '../../index.php';
+                    window.location.href = '/';
                 </script>";
         }
     } else {
         echo "<script type='text/javascript'>
                 alert('Usuario o contraseña incorrectos');
-                window.location.href = '../../index.php';
+                window.location.href = '/';
             </script>";
     }
 

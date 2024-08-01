@@ -1,0 +1,319 @@
+/dev/fd/13:18: command not found: compdef
+nono@MacBook-Pro-de-Nolberto php % composer init
+
+                                            
+  Welcome to the Composer config generator  
+                                            
+
+
+This command will guide you through creating your composer.json config.
+
+Package name (<vendor>/<name>) [nono/php]: nono
+The package name nono is invalid, it should be lowercase and have a vendor name, a forward slash, and a package name, matching: [a-z0-9_.-]+/[a-z0-9_.-]+
+Package name (<vendor>/<name>) [nono/php]: nono/php
+Description []: php
+Author [nolbertog <nolberto.en@gmail.com>, n to skip]: nono
+Minimum Stability []: 
+Package Type (e.g. library, project, metapackage, composer-plugin) []: 
+License []: 
+
+Define your dependencies.
+
+Would you like to define your dependencies (require) interactively [yes]? yes
+Search for a package: 
+Would you like to define your dev dependencies (require-dev) interactively [yes]? yes
+Search for a package: 
+Add PSR-4 autoload mapping? Maps namespace "Nono\Php" to the entered relative path. [src/, n to skip]: n
+
+{
+    "name": "nono/php",
+    "description": "php",
+    "authors": [
+        {
+            "name": "nono"
+        }
+    ],
+    "require": {}
+}
+
+Do you confirm generation [yes]? yes
+nono@MacBook-Pro-de-Nolberto php % composer install
+Composer could not detect the root package (nono/php) version, defaulting to '1.0.0'. See https://getcomposer.org/root-version
+No composer.lock file present. Updating dependencies to latest instead of installing from lock file. See https://getcomposer.org/install for more information.
+Loading composer repositories with package information
+Updating dependencies
+Nothing to modify in lock file
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Nothing to install, update or remove
+Generating autoload files
+nono@MacBook-Pro-de-Nolberto php % php -S 127.0.0.1:8000
+[Tue Jul 16 12:03:42 2024] PHP 8.3.9 Development Server (http://127.0.0.1:8000) started
+[Tue Jul 16 12:03:55 2024] 127.0.0.1:50050 Accepted
+[Tue Jul 16 12:03:55 2024] 127.0.0.1:50050 [200]: GET /
+[Tue Jul 16 12:03:55 2024] 127.0.0.1:50050 Closing
+[Tue Jul 16 12:03:55 2024] 127.0.0.1:50051 Accepted
+[Tue Jul 16 12:03:55 2024] 127.0.0.1:50051 [404]: GET /favicon.ico - No such file or directory
+[Tue Jul 16 12:03:55 2024] 127.0.0.1:50051 Closing
+[Tue Jul 16 12:09:24 2024] 127.0.0.1:50136 Accepted
+[Tue Jul 16 12:09:24 2024] 127.0.0.1:50136 [200]: GET /
+[Tue Jul 16 12:09:24 2024] 127.0.0.1:50136 Closing
+[Tue Jul 16 12:09:24 2024] 127.0.0.1:50137 Accepted
+[Tue Jul 16 12:10:45 2024] 127.0.0.1:50137 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:10:45 2024] 127.0.0.1:50137 Closing
+[Tue Jul 16 12:10:45 2024] 127.0.0.1:50153 Accepted
+[Tue Jul 16 12:10:45 2024] 127.0.0.1:50153 [200]: GET /
+[Tue Jul 16 12:10:45 2024] 127.0.0.1:50153 Closing
+[Tue Jul 16 12:10:45 2024] 127.0.0.1:50154 Accepted
+[Tue Jul 16 12:10:45 2024] 127.0.0.1:50155 Accepted
+[Tue Jul 16 12:12:27 2024] 127.0.0.1:50154 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:12:27 2024] 127.0.0.1:50154 Closing
+[Tue Jul 16 12:12:27 2024] 127.0.0.1:50155 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:12:27 2024] 127.0.0.1:50155 Closing
+[Tue Jul 16 12:12:27 2024] 127.0.0.1:50157 Accepted
+[Tue Jul 16 12:12:27 2024] 127.0.0.1:50157 [200]: GET /
+[Tue Jul 16 12:12:27 2024] 127.0.0.1:50157 Closing
+[Tue Jul 16 12:12:27 2024] 127.0.0.1:50158 Accepted
+[Tue Jul 16 12:14:18 2024] 127.0.0.1:50158 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:14:18 2024] 127.0.0.1:50158 Closing
+[Tue Jul 16 12:14:18 2024] 127.0.0.1:50159 Accepted
+[Tue Jul 16 12:14:18 2024] 127.0.0.1:50159 [200]: GET /
+[Tue Jul 16 12:14:18 2024] 127.0.0.1:50159 Closing
+[Tue Jul 16 12:14:18 2024] 127.0.0.1:50160 Accepted
+[Tue Jul 16 12:15:56 2024] 127.0.0.1:50160 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:15:56 2024] 127.0.0.1:50160 Closing
+[Tue Jul 16 12:15:56 2024] 127.0.0.1:50170 Accepted
+[Tue Jul 16 12:15:56 2024] 127.0.0.1:50170 [200]: GET /
+[Tue Jul 16 12:15:56 2024] 127.0.0.1:50170 Closing
+[Tue Jul 16 12:15:56 2024] 127.0.0.1:50171 Accepted
+[Tue Jul 16 12:15:56 2024] 127.0.0.1:50172 Accepted
+[Tue Jul 16 12:17:15 2024] 127.0.0.1:50171 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:17:15 2024] 127.0.0.1:50171 Closing
+[Tue Jul 16 12:17:15 2024] 127.0.0.1:50172 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:17:15 2024] 127.0.0.1:50172 Closing
+[Tue Jul 16 12:17:15 2024] 127.0.0.1:50175 Accepted
+[Tue Jul 16 12:17:15 2024] PHP Warning:  Array to string conversion in /Users/nono/Desktop/php/index.php on line 49
+[Tue Jul 16 12:17:15 2024] 127.0.0.1:50175 [200]: GET /
+[Tue Jul 16 12:17:15 2024] 127.0.0.1:50175 Closing
+[Tue Jul 16 12:17:15 2024] 127.0.0.1:50176 Accepted
+[Tue Jul 16 12:18:04 2024] 127.0.0.1:50176 [200]: GET /
+[Tue Jul 16 12:18:04 2024] 127.0.0.1:50176 Closing
+[Tue Jul 16 12:18:04 2024] 127.0.0.1:50179 Accepted
+[Tue Jul 16 12:18:19 2024] 127.0.0.1:50179 [200]: GET /
+[Tue Jul 16 12:18:19 2024] 127.0.0.1:50179 Closing
+[Tue Jul 16 12:18:19 2024] 127.0.0.1:50180 Accepted
+[Tue Jul 16 12:18:19 2024] 127.0.0.1:50181 Accepted
+[Tue Jul 16 12:19:14 2024] 127.0.0.1:50180 [200]: GET /
+[Tue Jul 16 12:19:14 2024] 127.0.0.1:50180 Closing
+[Tue Jul 16 12:19:14 2024] 127.0.0.1:50182 Accepted
+[Tue Jul 16 12:19:42 2024] 127.0.0.1:50181 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:19:42 2024] 127.0.0.1:50181 Closing
+[Tue Jul 16 12:19:42 2024] 127.0.0.1:50182 [200]: GET /
+[Tue Jul 16 12:19:42 2024] 127.0.0.1:50182 Closing
+[Tue Jul 16 12:19:42 2024] 127.0.0.1:50189 Accepted
+[Tue Jul 16 12:19:42 2024] 127.0.0.1:50190 Accepted
+[Tue Jul 16 12:19:43 2024] 127.0.0.1:50189 [200]: GET /
+[Tue Jul 16 12:19:43 2024] 127.0.0.1:50189 Closing
+[Tue Jul 16 12:19:43 2024] 127.0.0.1:50191 Accepted
+[Tue Jul 16 12:19:43 2024] 127.0.0.1:50190 [200]: GET /
+[Tue Jul 16 12:19:43 2024] 127.0.0.1:50190 Closing
+[Tue Jul 16 12:19:43 2024] 127.0.0.1:50192 Accepted
+[Tue Jul 16 12:19:43 2024] 127.0.0.1:50191 [200]: GET /
+[Tue Jul 16 12:19:43 2024] 127.0.0.1:50191 Closing
+[Tue Jul 16 12:19:43 2024] 127.0.0.1:50192 [200]: GET /
+[Tue Jul 16 12:19:43 2024] 127.0.0.1:50192 Closing
+[Tue Jul 16 12:19:43 2024] 127.0.0.1:50193 Accepted
+[Tue Jul 16 12:19:44 2024] 127.0.0.1:50193 [200]: GET /
+[Tue Jul 16 12:19:44 2024] 127.0.0.1:50193 Closing
+[Tue Jul 16 12:19:44 2024] 127.0.0.1:50194 Accepted
+[Tue Jul 16 12:19:44 2024] 127.0.0.1:50195 Accepted
+[Tue Jul 16 12:20:22 2024] 127.0.0.1:50194 [200]: GET /
+[Tue Jul 16 12:20:22 2024] 127.0.0.1:50194 Closing
+[Tue Jul 16 12:20:22 2024] 127.0.0.1:50196 Accepted
+[Tue Jul 16 12:20:36 2024] 127.0.0.1:50195 [200]: GET /
+[Tue Jul 16 12:20:36 2024] 127.0.0.1:50195 Closing
+[Tue Jul 16 12:20:36 2024] 127.0.0.1:50198 Accepted
+[Tue Jul 16 12:22:22 2024] 127.0.0.1:50196 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:22:22 2024] 127.0.0.1:50196 Closing
+[Tue Jul 16 12:22:22 2024] 127.0.0.1:50199 Accepted
+[Tue Jul 16 12:22:22 2024] 127.0.0.1:50198 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:22:22 2024] 127.0.0.1:50198 Closing
+[Tue Jul 16 12:22:22 2024] 127.0.0.1:50200 Accepted
+[Tue Jul 16 12:22:22 2024] 127.0.0.1:50199 [200]: GET /
+[Tue Jul 16 12:22:22 2024] 127.0.0.1:50199 Closing
+[Tue Jul 16 12:24:36 2024] 127.0.0.1:50215 Accepted
+[Tue Jul 16 12:24:36 2024] 127.0.0.1:50200 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:24:36 2024] 127.0.0.1:50200 Closing
+[Tue Jul 16 12:24:36 2024] 127.0.0.1:50215 [200]: GET /
+[Tue Jul 16 12:24:36 2024] 127.0.0.1:50215 Closing
+[Tue Jul 16 12:24:36 2024] 127.0.0.1:50216 Accepted
+[Tue Jul 16 12:25:13 2024] 127.0.0.1:50216 [200]: GET /
+[Tue Jul 16 12:25:13 2024] 127.0.0.1:50216 Closing
+[Tue Jul 16 12:25:13 2024] 127.0.0.1:50218 Accepted
+[Tue Jul 16 12:25:13 2024] 127.0.0.1:50219 Accepted
+[Tue Jul 16 12:27:48 2024] 127.0.0.1:50218 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:27:48 2024] 127.0.0.1:50218 Closing
+[Tue Jul 16 12:27:48 2024] 127.0.0.1:50219 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:27:48 2024] 127.0.0.1:50219 Closing
+[Tue Jul 16 12:27:48 2024] 127.0.0.1:50221 Accepted
+[Tue Jul 16 12:27:48 2024] PHP Fatal error:  Uncaught Error: Class "Persona" not found in /Users/nono/Desktop/php/index.php:57
+Stack trace:
+#0 {main}
+  thrown in /Users/nono/Desktop/php/index.php on line 57
+[Tue Jul 16 12:27:48 2024] 127.0.0.1:50221 [200]: GET / - Uncaught Error: Class "Persona" not found in /Users/nono/Desktop/php/index.php:57
+Stack trace:
+#0 {main}
+  thrown in /Users/nono/Desktop/php/index.php on line 57
+[Tue Jul 16 12:27:48 2024] 127.0.0.1:50221 Closing
+[Tue Jul 16 12:27:48 2024] 127.0.0.1:50222 Accepted
+[Tue Jul 16 12:28:07 2024] 127.0.0.1:50222 [200]: GET /
+[Tue Jul 16 12:28:07 2024] 127.0.0.1:50222 Closing
+[Tue Jul 16 12:28:07 2024] 127.0.0.1:50224 Accepted
+[Tue Jul 16 12:28:07 2024] 127.0.0.1:50225 Accepted
+[Tue Jul 16 12:28:27 2024] 127.0.0.1:50224 [200]: GET /
+[Tue Jul 16 12:28:27 2024] 127.0.0.1:50224 Closing
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50225 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50225 Closing
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50226 Accepted
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50226 [200]: GET /
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50226 Closing
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50227 Accepted
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50228 Accepted
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50227 [200]: GET /
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50227 Closing
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50229 Accepted
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50228 [200]: GET /
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50228 Closing
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50230 Accepted
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50229 [200]: GET /
+[Tue Jul 16 12:29:33 2024] 127.0.0.1:50229 Closing
+[Tue Jul 16 12:29:34 2024] 127.0.0.1:50230 [200]: GET /
+[Tue Jul 16 12:29:34 2024] 127.0.0.1:50230 Closing
+[Tue Jul 16 12:29:34 2024] 127.0.0.1:50231 Accepted
+[Tue Jul 16 12:31:11 2024] 127.0.0.1:50231 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:31:11 2024] 127.0.0.1:50231 Closing
+[Tue Jul 16 12:31:11 2024] 127.0.0.1:50233 Accepted
+[Tue Jul 16 12:31:11 2024] 127.0.0.1:50234 Accepted
+[Tue Jul 16 12:31:11 2024] 127.0.0.1:50233 [200]: GET /
+[Tue Jul 16 12:31:11 2024] 127.0.0.1:50233 Closing
+[Tue Jul 16 12:31:12 2024] 127.0.0.1:50234 [200]: GET /
+[Tue Jul 16 12:31:12 2024] 127.0.0.1:50234 Closing
+[Tue Jul 16 12:31:12 2024] 127.0.0.1:50235 Accepted
+[Tue Jul 16 12:31:12 2024] 127.0.0.1:50236 Accepted
+[Tue Jul 16 12:31:12 2024] 127.0.0.1:50235 [200]: GET /
+[Tue Jul 16 12:31:12 2024] 127.0.0.1:50235 Closing
+[Tue Jul 16 12:31:12 2024] 127.0.0.1:50237 Accepted
+[Tue Jul 16 12:31:12 2024] 127.0.0.1:50236 [200]: GET /
+[Tue Jul 16 12:31:12 2024] 127.0.0.1:50236 Closing
+[Tue Jul 16 12:31:12 2024] 127.0.0.1:50238 Accepted
+[Tue Jul 16 12:37:18 2024] 127.0.0.1:50237 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:37:18 2024] 127.0.0.1:50237 Closing
+[Tue Jul 16 12:37:18 2024] 127.0.0.1:50238 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:37:18 2024] 127.0.0.1:50238 Closing
+[Tue Jul 16 12:37:18 2024] 127.0.0.1:50246 Accepted
+[Tue Jul 16 12:37:18 2024] 127.0.0.1:50246 [302]: GET /
+[Tue Jul 16 12:37:18 2024] 127.0.0.1:50246 Closing
+[Tue Jul 16 12:37:18 2024] 127.0.0.1:50247 Accepted
+[Tue Jul 16 12:37:18 2024] 127.0.0.1:50248 Accepted
+[Tue Jul 16 12:37:18 2024] 127.0.0.1:50247 [200]: GET /login.php
+[Tue Jul 16 12:37:18 2024] 127.0.0.1:50247 Closing
+[Tue Jul 16 12:37:19 2024] 127.0.0.1:50248 [200]: GET /login.php
+[Tue Jul 16 12:37:19 2024] 127.0.0.1:50248 Closing
+[Tue Jul 16 12:37:19 2024] 127.0.0.1:50249 Accepted
+[Tue Jul 16 12:37:19 2024] 127.0.0.1:50250 Accepted
+[Tue Jul 16 12:37:19 2024] 127.0.0.1:50249 [200]: GET /login.php
+[Tue Jul 16 12:37:19 2024] 127.0.0.1:50249 Closing
+[Tue Jul 16 12:37:19 2024] 127.0.0.1:50251 Accepted
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50267 Accepted
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50251 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50251 Closing
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50250 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50250 Closing
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50267 [200]: GET /login.php
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50267 Closing
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50268 Accepted
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50269 Accepted
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50268 [200]: GET /login.php
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50268 Closing
+[Tue Jul 16 12:40:01 2024] 127.0.0.1:50270 Accepted
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50269 [200]: GET /login.php
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50269 Closing
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50271 Accepted
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50270 [200]: GET /login.php
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50270 Closing
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50271 [200]: GET /login.php
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50271 Closing
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50272 Accepted
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50272 [200]: GET /login.php
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50272 Closing
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50273 Accepted
+[Tue Jul 16 12:40:02 2024] 127.0.0.1:50274 Accepted
+[Tue Jul 16 12:40:03 2024] 127.0.0.1:50273 [200]: GET /login.php
+[Tue Jul 16 12:40:03 2024] 127.0.0.1:50273 Closing
+[Tue Jul 16 12:40:12 2024] 127.0.0.1:50274 [404]: GET /idex.php - No such file or directory
+[Tue Jul 16 12:40:12 2024] 127.0.0.1:50274 Closing
+[Tue Jul 16 12:40:12 2024] 127.0.0.1:50275 Accepted
+[Tue Jul 16 12:40:12 2024] 127.0.0.1:50276 Accepted
+[Tue Jul 16 12:40:17 2024] 127.0.0.1:50275 [200]: GET /index.php
+[Tue Jul 16 12:40:17 2024] 127.0.0.1:50275 Closing
+[Tue Jul 16 12:40:17 2024] 127.0.0.1:50277 Accepted
+[Tue Jul 16 12:40:23 2024] 127.0.0.1:50276 [200]: GET /login.php?nombre=akl%3Bsma&password=asmnal
+[Tue Jul 16 12:40:23 2024] 127.0.0.1:50276 Closing
+[Tue Jul 16 12:40:23 2024] 127.0.0.1:50279 Accepted
+[Tue Jul 16 12:40:50 2024] 127.0.0.1:50277 [200]: GET /index.php
+[Tue Jul 16 12:40:50 2024] 127.0.0.1:50277 Closing
+[Tue Jul 16 12:40:50 2024] 127.0.0.1:50281 Accepted
+[Tue Jul 16 12:42:09 2024] 127.0.0.1:50283 Accepted
+[Tue Jul 16 12:42:09 2024] 127.0.0.1:50281 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:42:09 2024] 127.0.0.1:50281 Closing
+[Tue Jul 16 12:42:09 2024] 127.0.0.1:50279 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:42:09 2024] 127.0.0.1:50279 Closing
+[Tue Jul 16 12:42:09 2024] 127.0.0.1:50283 [200]: GET /index.php
+[Tue Jul 16 12:42:09 2024] 127.0.0.1:50283 Closing
+[Tue Jul 16 12:42:09 2024] 127.0.0.1:50284 Accepted
+[Tue Jul 16 12:42:09 2024] 127.0.0.1:50285 Accepted
+[Tue Jul 16 12:42:15 2024] 127.0.0.1:50284 [200]: GET /login.php?nombre=nono&password=nono
+[Tue Jul 16 12:42:15 2024] 127.0.0.1:50284 Closing
+[Tue Jul 16 12:42:15 2024] 127.0.0.1:50286 Accepted
+[Tue Jul 16 12:43:27 2024] 127.0.0.1:50286 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:43:27 2024] 127.0.0.1:50286 Closing
+[Tue Jul 16 12:43:27 2024] 127.0.0.1:50285 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:43:27 2024] 127.0.0.1:50285 Closing
+[Tue Jul 16 12:43:27 2024] 127.0.0.1:50287 Accepted
+[Tue Jul 16 12:43:27 2024] 127.0.0.1:50287 [200]: GET /index.php
+[Tue Jul 16 12:43:27 2024] 127.0.0.1:50287 Closing
+[Tue Jul 16 12:43:27 2024] 127.0.0.1:50288 Accepted
+[Tue Jul 16 12:43:27 2024] 127.0.0.1:50289 Accepted
+[Tue Jul 16 12:43:28 2024] 127.0.0.1:50288 [200]: GET /index.php
+[Tue Jul 16 12:43:28 2024] 127.0.0.1:50288 Closing
+[Tue Jul 16 12:43:28 2024] 127.0.0.1:50289 [200]: GET /index.php
+[Tue Jul 16 12:43:28 2024] 127.0.0.1:50289 Closing
+[Tue Jul 16 12:43:28 2024] 127.0.0.1:50290 Accepted
+[Tue Jul 16 12:43:29 2024] 127.0.0.1:50290 [200]: GET /index.php
+[Tue Jul 16 12:43:29 2024] 127.0.0.1:50290 Closing
+[Tue Jul 16 12:43:29 2024] 127.0.0.1:50291 Accepted
+[Tue Jul 16 12:43:34 2024] PHP Warning:  Undefined array key "nombre" in /Users/nono/Desktop/php/login.php on line 4
+[Tue Jul 16 12:43:34 2024] PHP Warning:  Undefined array key "password" in /Users/nono/Desktop/php/login.php on line 5
+[Tue Jul 16 12:43:34 2024] 127.0.0.1:50291 [200]: POST /login.php
+[Tue Jul 16 12:43:34 2024] 127.0.0.1:50291 Closing
+[Tue Jul 16 12:43:34 2024] 127.0.0.1:50292 Accepted
+[Tue Jul 16 12:43:34 2024] 127.0.0.1:50293 Accepted
+[Tue Jul 16 12:44:12 2024] 127.0.0.1:50292 [200]: GET /index.php
+[Tue Jul 16 12:44:12 2024] 127.0.0.1:50292 Closing
+[Tue Jul 16 12:44:12 2024] 127.0.0.1:50294 Accepted
+[Tue Jul 16 12:44:16 2024] 127.0.0.1:50293 [200]: GET /index.php
+[Tue Jul 16 12:44:16 2024] 127.0.0.1:50293 Closing
+[Tue Jul 16 12:44:16 2024] 127.0.0.1:50294 [200]: GET /index.php
+[Tue Jul 16 12:44:16 2024] 127.0.0.1:50294 Closing
+[Tue Jul 16 12:44:16 2024] 127.0.0.1:50295 Accepted
+[Tue Jul 16 12:44:16 2024] 127.0.0.1:50296 Accepted
+[Tue Jul 16 12:44:16 2024] 127.0.0.1:50295 [200]: GET /index.php
+[Tue Jul 16 12:44:16 2024] 127.0.0.1:50295 Closing
+[Tue Jul 16 12:44:16 2024] 127.0.0.1:50297 Accepted
+[Tue Jul 16 12:44:21 2024] 127.0.0.1:50296 [200]: POST /login.php
+[Tue Jul 16 12:44:21 2024] 127.0.0.1:50296 Closing
+[Tue Jul 16 12:44:21 2024] 127.0.0.1:50298 Accepted
+[Tue Jul 16 12:45:49 2024] 127.0.0.1:50297 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:45:49 2024] 127.0.0.1:50297 Closing
+[Tue Jul 16 12:45:49 2024] 127.0.0.1:50298 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Jul 16 12:45:49 2024] 127.0.0.1:50298 Closing

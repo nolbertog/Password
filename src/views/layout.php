@@ -19,9 +19,7 @@
             <li><a href="#">Configuración</a></li>
             <li><a id="logout" href="../auth/logout.php">Cerrar Sesión</a></li>
         </ul>
-    </nav>
-    <h2>Bienvenido, <?php echo htmlspecialchars($_SESSION['usuario']); ?>!</h2>
-    
+    </nav>    
     <?php echo isset($contenido) ? $contenido : ''; ?>
 
 </body>
